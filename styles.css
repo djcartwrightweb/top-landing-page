@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--dark-blue: #1F2937;
+	--white: #F9FAF8;
+	--light-blue: #3882F6;
+	--gray: #E5E7EB;
+}
+
+body {
+	color: var(--white);
+}
+
+#header {
+	width: 100%;
+	background-color: var(--dark-blue);
+}
+
+#logo {
+	padding: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav>ul {
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+}
+
+nav>ul>li {
+	padding: 10px;
+}
+
+#hero {
+	margin: 70px auto 50px auto;
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	padding-bottom: 70px;
+}
+
+#left-hero>h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+#left-hero>p {
+	font-size: 18px;
+}
+
+#left-hero>button {
+	background-color: var(--light-blue);
+	color: var(--white);
+	border-radius: 10px;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+
+#right-hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+}
+
+#right-hero, #left-hero {
+	width: 50%;
+}	
+
+#content {
+	text-align: center;
+}
+
+#content>h2 {
+	color: var(--dark-blue);
+	font-size: 36px;
+}
+
+#cards {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.card {
+	margin: 50px 20px;
+}
+
+.card>div {
+	width: 100px;
+	height: 100px;
+	border: 1.5px solid var(--light-blue);
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.card>p {
+	padding-top: 5px;
+ 	width: 100px;
+ 	color: var(--dark-blue) !important;
+	font-size: 14px;
+}
+
+#quote {
+	background-color: var(--gray);
+	color: var(--dark-blue);
+	padding: 50px 100px;
+}
+
+#quote-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#quoter {
+	text-align: end;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#call-to-action {
+	margin: 60px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--light-blue);
+	padding: 40px;
+	border-radius: 10px;
+}
+
+#left-call, #right-call {
+	background-color: var(--light-blue);
+}
+
+#left-call {
+	text-align: start;
+}
+
+#right-call {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#right-call>button {
+	background-color: var(--light-blue);
+	border: 1px solid var(--white);
+	color: var(--white);
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark-blue);
+	padding: 20px;
+}
+
